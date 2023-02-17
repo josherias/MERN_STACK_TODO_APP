@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+  @apply bg-gray-100;
+  overflow-x: hidden;
+}
+
+/* input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  @apply w-full border my-2 py-2 px-3 rounded-md;
+} */
+
+label {
+  @apply w-[100%] text-gray-700 text-sm;
+}
+
+input:focus {
+  outline: none;
+}

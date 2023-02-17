@@ -57,8 +57,6 @@ function validateUserOnEdit(user) {
   const schema = Joi.object({
     name: Joi.string().min(5).max(50).required(),
     email: Joi.string().min(5).max(255).email(),
-    phone: Joi.string().max(20),
-    photo: Joi.string(),
   });
 
   const options = {
